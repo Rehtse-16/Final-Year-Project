@@ -1,0 +1,155 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: #EBEDEF;
+}
+.loginPage{
+    display: flex;
+    margin: 150px 0 150px 200px;
+    /* justify-content: center; */
+    overflow: hidden;
+}
+.lecturer{
+    background-color: #ffff;
+    padding: 50px 110px 50px 50px;
+}
+#lecture{
+    color: #3C4B64;
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+#sign{
+    color: #768192;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.input-box{
+    position: relative;
+    width: 100%;
+    height: 45px;
+    margin:20px 0;
+    max-height:65px;
+    transition: max-height 0.5s;
+    overflow: hidden;
+}
+.input-box input{
+    width: 100%;
+    height: 5px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid #D8DBE0;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #7586AF;
+    cursor: text;
+    padding: 20px 45px 20px 50px;
+}
+
+#img{
+    background-color: #EBEDEF;
+    position: absolute;
+    top: 8px;
+    /* left: 1px; */
+    transform: translateY(-20%);
+    padding: auto;
+    font-size: 20px;
+    height: 45px;
+    width: 40px;
+    border-radius: 5px;
+}
+#img img{  
+    /* text-align: center; */
+    margin: 10px 10px;
+}
+.show-password{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12.5px;
+    margin: 15px 0 15px;
+}
+.show-password label input{
+    accent-color: aliceblue;
+    margin-right: 3px;
+}
+.btnfield{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.btnfield button{
+    flex-basis: 35%;
+    background: #004282;
+    color: aliceblue;
+    height: 40px;
+    border-radius: 5px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: background 1s;
+    padding: 5px;
+    /* margin-right: 50px; */
+}
+.forget{
+    text-align: center;
+    margin: 5px 0 5px 30px;
+    text-decoration: none;
+    color: #025bb4;
+    text-wrap: nowrap;
+}
+.info{
+    background-color: #004282;
+    color: #ffff;
+    padding: 20px 40px 50px 50px;
+}
+.header{
+    display: flex;
+    gap: 40px
+}
+.Babcock{
+    width: 60px;
+    height: 60px;
+}
+#uni{
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 20px;
+    text-wrap: nowrap;
+    font-weight: 400;
+}
+.burms{
+    text-align: center;
+    /* margin-top: -40px; */
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.mission{
+    text-align: center;
+}
+.mission p{
+    text-align: center;
+}
+.home{
+    margin: 40px 150px;
+    color: #ffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border:solid 1px #ffff;
+    background: none;
+    text-align: center;
+    text-wrap: nowrap;
+    position: relative;
+    margin-bottom: 60px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+
+  
